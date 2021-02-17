@@ -62,3 +62,31 @@ export function n(x, y) {
     else
         return false;
 }
+export function tendies(x){
+    console.table(x);
+}
+
+export function gcd(x){
+    console.groupCollapsed(x)
+}
+
+export function g(x) {
+    console.group(x)
+}
+
+export function ged(x){
+    console.groupEnd(x)
+}
+
+export function csta(x) {
+    console.time(x);
+}
+export function cend(x) {
+    console.timeEnd(x);
+}
+
+export function yeet(x){
+    let t = m.f(m.ra() * m.f(x.length));
+    x.splice(t, 1);
+    return x;
+}
