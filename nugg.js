@@ -19,13 +19,15 @@ export function nuggets(x, y) {
     return t;
 }
 export function nt(x) {
+    let t;
     if (x.includes("#")) {
-        return document.getElementById(x);
+        t = document.getElementById(x);
     } else if (x.includes(".")) {
-        return document.getElementsByClassName(x);
+        t = document.getElementsByClassName(x);
     } else {
-        return document.querySelectorAll(x);
+        t =  document.querySelectorAll(x);
     }
+    return t;
 }
 export class m {
     constructor() { }
@@ -56,6 +58,7 @@ export class m {
     static th(x) { return Math.tanh(x); }
     static tr(x) { return Math.trunc(x); }
 }
+
 export function n(x, y) {
     if (x === y)
         return true;
@@ -81,6 +84,7 @@ export function ged(x){
 export function csta(x) {
     console.time(x);
 }
+
 export function cend(x) {
     console.timeEnd(x);
 }

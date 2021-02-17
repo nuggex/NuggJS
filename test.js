@@ -13,6 +13,6 @@ n.nog(n.n("1","1"))
 n.nog(n.n(n.nuggets([1,2,3,4,5,6,7],6),6));
 
 
-n.nog(n.yeet([1,2,3,4]))
+n.tendies(n.yeet([1,2,3,4]))
 
 n.nog(n.nug([1,2,3,4]))
