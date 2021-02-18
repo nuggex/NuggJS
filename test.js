@@ -14,5 +14,5 @@ n.nog(n.n(n.nuggets([1,2,3,4,5,6,7],6),6));
 
 
 n.tendies(n.yeet([1,2,3,4]))
-
-n.nog(n.nug([1,2,3,4]))
+n.tendies(n.woof([1,2,3,4],5))
+//n.nog(n.nug([1,2,3,4]))

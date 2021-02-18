@@ -94,3 +94,9 @@ export function yeet(x){
     x.splice(t, 1);
     return x;
 }
+
+export function woof(x,y) {
+    let t = x;
+    t.push(y);
+    return t;
+}
